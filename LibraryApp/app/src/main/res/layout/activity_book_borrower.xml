@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".BookBorrowerActivity">
+
+    <TextView
+        android:id="@+id/tvTenNguoiMuon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên Người Mượn:"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etTenNguoiMuon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên người mượn" />
+
+    <TextView
+        android:id="@+id/tvThoiGianMuon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thời Gian Mượn:"
+        android:textSize="16sp" />
+
+    <DatePicker
+        android:id="@+id/dpThoiGianMuon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnLuu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lưu Thông Tin" />
+
+</LinearLayout>
